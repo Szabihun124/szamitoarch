@@ -1,1 +1,1 @@
-#1 Számitó arch #
+# Számitó arch #
