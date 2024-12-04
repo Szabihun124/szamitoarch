@@ -1,0 +1,258 @@
+Neuman elv
+A számítógép legyen teljesen elektronikus
+Kettes számrendszert használjon
+Rendelkezzen külön vezérlő és végrehajtó egységel
+A programok és adatok egy közös memórián helyezkedjenek el
+Turing elven alapuljon
+Mi az a ram?
+Random acces memory
+	Írható és olvasható memoria
+	A cellák elérése nem függ a többi celától
+	Sorrendben is ellehet érni a cellákat
+	Sor és oszlop cimekkel választhatók a cellák
+Bit átvitel rendje szerint nincs minden bitnek saját vonala?
+	Párhuzamos sín
+Mit nevezünk párhuzamos sínnek?
+	Minden bitnek saját vonala van
+Mit nevezünk soros sínnek?
+	A sínek a biteket sorozatban továbbítják
+Mi a szerepe a regiszereknek?
+	Munka memóriát biztosít az ALU-nak
+	Ideiglenes tárolást bíztosít
+	Segíti a címképzést
+	A regiszterek a CPU belső tároló elemei
+	Tartalmuk gyorsan és egyszerüen elérhető a cpu számára
+Felhasználói felületek
+	GUI = Grafikai
+	CLI = Parancssoros
+Lokalitás elve - > Memória hozzáférésben
+	A processzek statisztikailag megfigyelhető tulajdonsága
+Időbeli lokalitás ->
+	A memória újra használja a közeli, hivatkozott címeket.
+Rendelkezésre álló párhuzamosságnak fajtái:
+	Funkciónális és adatpárhuzamosság
+RISC jellemzői
+	Csak alapvetőbb instrukciók léteznek gépi szinten
+	Sok regiszere van, így kevesebb a tárművelet
+	Fix kódhosszúság, egyszerű címzési módok
+	Egyszerű és gyors a dekódolás
+	Ezeket a CPU-kat az OS-ekhez és complierekhez tervezik
+	Hátránya: 
+		Bonyolultabb feladatakat instrukció-szekvenciákkal kell megoldani amely növeli a program méretét
+Az Adatfolyam gép miértnem felel meg a Neuman elvnek?
+	Az adatfolyam gépnek applikatív szemantikája van, illetve adatfolyam vezérelt.
+	A neuman modell probléme leírása imperatív, míg az adatfolyam vezéreltnél deklaratív
+Adattfüggőség valódi függőség
+	RAW -> Read after Write
+..... hamis függőség
+	WAR, WAW -> Write after Read, Write after Write
+befejezési sorrend eltérhet a programozótol....
+	Gyenge konzisztencia
+befejezési sorrend szigorúan azonos a programozói sorrendel....
+	Erős konzisztencia
+erős konzisztencia?
+	....
+gyenge konzisztencia
+	a befejezési sorrend eltér a programozótol, de integritási hibát nem okoz
+Mi jellemzi a vezérlésfüggőséget
+	Feltételes ugró utasítástól függenek a vezérléi ágak.	
+Az utasítások közötti függőségek kapcsán mi jellemzi az adatfüggőséget?
+	Egy instrukció az előző eredményét használja.
+CPU főbb részei:
+	ALU -> Arithmetic and Logical Unit
+		Aritmetikai és Logikai Egység -> Az alapvető logikai műveleteket hajtra végre
+	AGU -> Address Generation Unit
+		Címszámító egység -> Feladata a programutasításokban található címek leképezése a főtár fizikai címeire
+	CU  -> Control Unit
+		Vezérlő egység -> Ez szervezi, ütemezi a cpu egész munkáját. pl lehívja a memóriából a soron következő utasítást
+	Regiszter
+		A CPU-ba beépített gyors elérésű, kis méretú memória. Ideiglenesen tárolják az információkat, amíg a CPU dolgozik.
+	Buszvezérlő
+		A regisztert és más adattárolókat összekütő buszrendszert irányítja. Továbbítja az adatokat
+	Cache-> Gyorsítótár
+		A CPU-ba vagy környezetébe integrált memóra, ami rendszermemória-elérést hivatott kiváltani azoknak a programrészek  előzetes beolvasásával, amikre  a végrehajtás közben szüksége lehet.
+Dinamikus Függőség XD
+	A processzor két csúszó ablakot alkalmaz
+		1.Kibocsátási ablak
+			Azok az instrukciók vannak elhelyezve, amelyeket a következő ciklusban kibocsátana xd
+		2.Végrehajtási ablak
+			Azok az instrukciók vannak elhelyezve, amelyek még végrehajtás alatt álnak.
+DRAM (Dynamic RAM)
+	Egy-egy cellát egy tranzisztor-kondenzátor pár valósít meg egy bittárolására
+	A cella kondenzátora tárolja az 1 bitet, ha fel van töltve
+	A cella tranzisztora a cella feltöltésére és kiolvasására szükséges 
+	A cella tranzisztorokat időről-időre frissíteni kell, mert elveszhet a kondenzátor tartalma.
+Gyökérjegyzék xd
+	Az eszközök kitüntetett jegyzéke
+	Az a jegyzék ami nincs bejegyezve más jegyzékbe
+	Kitüntetett helyen van a tartalma
+	Kiindulópontja a hiearchikus faszerkezetnek xdd fasz szerkezet XDDD
+Hasznosított álló párhuzamosság
+	Amit a végrehajtás során érvényesíteni tudunk..
+Hiba és eseménykezelés a Neumann gépen:
+	A hiba és esemenykezelés a vezérlés manipulálásával történik.
+	Az eseményekhez kezelő instrukciófolyam tartozik.
+	Esemény bekövetkezésekor a vezérlés menete átugrik a kezelőre
+	A CPU állapotot lementi.
+	A kezelés után a vezérlés menete visszatér a lementett állapotba
+	Folytatódik a processz futása
+	Összegezve: a hiba és eseménykezelés a vezérlés manipulálásával történik :O le tudtam írni elsőre XD
+Hogyan nevezzük a CPU belső tárolóit? :D
+	Regiszeterk te kretén XDDDDDD
+Hogyan történik a hiba és eseménykezelés az adatfolyam gépen? (Dataflow Machine? :O)
+	Szeparált processzorok vannak minden operációra
+	Az operációk várnak, míg operandusuk értéke előáll, utána adják eredményüket
+		A proceszorok függetlenek
+	A legkorábbi lehetséges pillanatban adják eredményüket
+	Az operációk végrehajtási sorrendje az adatfolyamból adódik
+Jegyzék
+	A jegyzék olyan fájl, mely bejegyzéseket tartalmaz más fájlokról.
+		pl: nevüket, elhelyezkedésüket c:/asd
+	A jegyzékbe való bejegyzés szülő-gyermek relációt valósít meg, melyek együttesen hierarchikus faszerkezetet alkotnak.
+Gyorsítotárak müködése:
+	A gyorsítótárak a CPU-től függetlenek, vele párhuzamosan is tudnak dolgozni.
+	Adatírás esetén a CPU csak az adat gyorsítótárba ír
+	Ezzel párhuzamosan a Write Buffer is müködésbe lép, a D Cache-ből tölti a központi memória cellát, így párhuzamosan dolgozik a cpu-val
+Mi célt szolgálnak a gyorsítótárak?
+	Amikor a cpu olvasásra megcímez egy központi memória cellát akkor megcímződik a gyorsítótár is és ha a cella tartalma a gyorsító tárban van, a cellatartalom mozgatása a gyorsító tárból történik, sokkal nagyobb sebességgel.
+CISC architektúra főbb jellemzői
+	Sok, akár néhány száz összetett instrukció
+	Bonyolultab címzési módok lehetségesek, emiatt változó hosszúságúak az instrukciók
+	Ez nehezíti a feldolgozást
+	A gépi instrukciók változó ciklusidőt, nagy ciklusszámot igényelnek
+	Az assembly programozásban a komplex instrukciók valóban komplex feladatokat oldanak meg
+Mágneses tárolók cilindere
+	A lemezoldalak egymás fölötti sávjait, melyek írhatók és olvashatók
+Mágneses tárolók sávjai
+	Egy koncentrikus kör egy lemezoldalon
+Mágneses tárolók szektorai
+	A mágneses lemez azon része, ahol az adattárolás történik.
+	Ez egy sávon belüli körcikk
+	Tíz és húsz között szoktak előfordúlni egy-egy sávon az ívhosztól függően
+	A szektorok között hézag van.
+	A fizikai méretüktől függetlenül agyanannyi adatott tárol.
+	Címmel rendelkeznek
+Unix OS parancsértelmező burok
+	Billentyűzet, ablak, képernyő
+Milyen jegyzéknek nincs szülő jegyzéke?
+	A gyökérjegyzéknek xd
+Parancslista szintaktíkája és szemantikája UNIX OS parancsértelmező burkon belül
+	A szemantika:
+		Soros végrehajtása a csöveknek és aszinkron végrehajtása a csőbal-nak
+		Csak akkor folytatja a listát ,ha a csőbal normális visszatérési értékű.
+csővezeték funkciója
+	a bal oldal hajtódik végre | a jobboldal a visszatérési érték
+Fájl fogalma
+	Valamilyen szempontból összetartozó adatelemek, névvel ellátva, strukturált eszközön.
+	A nevekre vonatkozóan lehetnek konveciók és korlátozások illetve ezen nevekre a parancsokban hivatkozhatunk
+A rendelkezésre álló és hasznosított párhuzamosság
+	Rendelkezésre álló
+		A feladatok megoldásából adódik, illetve tartalmazza a probléma megoldását
+	Hasznosított
+		Végrehajtás során érvényesíteni tudunk
+Kliens-Szerver koncepció
+	A kommunikációban részvevő felek nem egyenranguak, dedikált szerepet töltenek be
+	Jellemzően a Kliens kezdeményezi azzal a céllal, hogy valamilyen müveletet vagy lekérdezést végeztessen el a szerverrel.
+	A szerver elvégzi a lépéseket és a szerver felé továbbítja az eredményt.
+DRAM vs SRAM
+	SRAM 
+		Nem igényel frissítési ciklusokat az adatok tárolásához
+		Félvezető memóriatipus, amely mindkét bit tárolásához bi-stabil reteszelő áramkört használ
+	DRAM 
+		Időszakos frissítési ciklusokat igényel az adatok megörzéséhez
+		Olyan véletlen hozzáférésű félvezető memóriatípus, amely az egyes biteket egy különálló kis kondenzátorban tárolja az integrált áramkörben
+CLI és GUI parancsértelmező
+	A parancsértelmező képes adni a megjelenítőn egy készenléti jelet, ami mutatja, hogy a billentyűzeten keresztül begépeltünk egy parancsot.
+CLI parancs fogalma
+	A parancs fehér karakterekkel határolt szavak sora
+	Az első szó a parancs neve, a többi szó pedig az argumentum
+Neuman architektúra címképző és sínvezérlő egység
+	Cimképző
+		Feladata a logikai címből valós címek leképzésének segítsége
+	Sínvezérlő
+		Feladata az instrukciók felhozatala a memóriából
+		az adatok tényleges mozgatása a memóriából
+		memóriába tárolás
+		I/O modolukból beolvasás és kiíratás
+CPU belső sínjeinek a szerepe
+	A CPU-n belüli adatfolyamat lebonyolító áramkörök összesége
+Vezérlő és dekódoló egység (Neuman)
+	Feladata a felhozott gépi instrukciók elemzése, dekódolása és a CPU többi elemének öszehangolt működtetése
+Virtuális és Valóságos címek leképzését segító asszociatív tár
+	Memória-gyorsítótár, amely felhasználói memóriahely eléréshez szükséges idő csökkentésére szolgál
+Miért növeli a CPU teljesítményét a gépi utasítások csökkentése
+	Kevesebb feladatott kell így végrehajtani , ezért gyorsabban végrehajtódik a ciklus
+	Egy-egy instrukció végrehajtására egy -> több száz ciklusra is szükség lehet, minnél kevesebb az instrukció annál gyorsabb
+Párhuzamosítás miért növeli a teljesítményt
+	A párhuzamosítás egy strukturális módszer, amely során több instrukciót párhuzamosan dolgoznak fel, emiatt a teljesítmény nő
+	Párhuzamosítás lehet CPU-n belül és kívül
+		pl: feladat szétosztás
+Miért növeli a teljesítményt az utasítások csökkentése?
+	Kevesebb utasítást kell végrehajtani ugyan annyi idő alatt, így a program gyorsabban lefut, a teljesítmény nő
+..... az órajel frekvencia növelése?
+	Az órajel növelése egy nem strukturált módszer
+	Az órajel frekvencianöveléskor az órajeladó több jelet ad le, így több ciklus is végbemegy ugyanannyi idő alatt
+Adatfolyam gép főbb jellemzői
+	Minden operációra külön szeperált processzorok vannak
+	Az operációk várnak amíg az operandusuk értéke előáll, utána adják eredményüket
+	A processzorok függetlenek
+	A legkorábbi lehetséges pillanatban adják az eredményüket
+Neuman gép főbb egységei
+	CPU és elemei, Memória, Ki és bemeneti egységek
+Nemstruktúrált módja a CPU teljesítmény növelésére
+	Órajelfrekvencia növelése
+Milyen struktúra jellemzi a futószallag feldolgozást?
+	Betöltés/Tárolás struktúra
+Struktúrált módja a CPU teljesítmény növelésre
+	Ciklusszám csökkentése 
+Szülő-gyermek relációban lévő jegyzéknevek listája
+	path v ösvény
+Fájlok azonosíthatók, attribútumaik elérhetőek
+	Fájlrendszer. NTF, Fat32, ext4
+Mit nevezünk fájlrendszernek?
+	Blokkorientált eszközre leképzett hierarchikus struktúra, melyben a fájlok azonosíthatók, kezelhetők, blokkjaik elérhetők.
+	Az eszköz blokkfoglaltásga menedzselt.
+Mit nevezünk procesznek?
+	A processz egy futás közben végrehajtható program 
+Statikus Függőség kezelés
+	Amikor a fordítóprogram az ami észlel és felold, illetve átrendezett instrukciósorozatot generál
+	A VLIW (Very Long Instruction Word) CPUK függőségmentes instrukciósorozatot várnak
+Hasznosított párhuzamosság
+	Amit a végrehajtás során érvényesíteni tudunk
+Mit nevezünk rendelkezésre álló párhuzamosságnak?
+	Ami a feladatból, megoldásból adódik a probléma megoldása benne van
+Mit tesz a kapott paranccsal a felhasználó felület parancsnyelvértelmezője?
+	Dekódolja a parancsolt. Majd parancsot beolvas, értelmez, átalakít és végrehajt
+Munkajegyzék
+	Az OS által feljegyzett és ezzel kitüntetett jegyzék
+Path / Ösvény
+	Szülő-gyermek relációban lévő jegyzéknevek listája, mely valamely jegyzékből kiindulva másik jegyzéket, fájlt azonosít.
+	Az ösvény indulhat:
+		Munkajegyzékből, ösvényjegyzékből,
+ROM
+	Read Only Memory
+	Olyan memoria ami nem veszi el az adatait a gép leállításakor sem
+	Ezeket a tartalmakat a gyártáskor töltik be
+	Elérésük szintén Random jellegü, bájtjaik véletlenszerűen címezhetők és kiolvashatók, de nem írhatók
+	A cellákban diódák vannak, az 1 bithez összekötést adnak, a 0-hoz nem
+SRAM
+	Random elérésüek, írható olvasható memóriák
+	Gyorsak, de viszonylag drágák és nagy az energia igényük
+Számítógép hálózatok
+	ezeket csak tudom 4 év után xDDDDD
+	GAN (Global Area Network): Világra kiterjedő, nagy elérési időkkel rendelkezhet
+	WAN (Wide Area Network): Sok ezer km-re kiterjedő
+	MAN (Metropolitan Area Network): Nagyvárosra, városra kiterjedő
+	LAN (Local Area Network):10 km-ig
+	VLAN (Very Local Area Network): 5-10 m-es kiterjedés	
+Számítógép architektúra
+	A számítógép leírása, modellje. Ekkor az architektúrában megadjuk a fő részeken.
+	
+	
+	
+	
+	
+	
+	
+	
+
