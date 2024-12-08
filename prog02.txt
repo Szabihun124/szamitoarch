@@ -1,0 +1,527 @@
+Prog
+	Számítógép nyelve a gépi kód
+	A processzor által végrehajtandó műveletek bináris reprezentációja
+Gépi Kód:
+	Regiszter szintű műveletek szekvenciális végrehajtása
+	A végrehajtható utasítások köre előre rögzített
+Alacsonyszintű programozás hátrányai:
+	Nehézkes, aprolékos munkát igényel
+	Az elkészült program hardver-függő, nem hordozható
+Az operációs rendszer átveszi a hardver kezelését + magasszintű programozási nyelv használata
+	Könnyebben megtanulható minta gépi kód
+	Processzor-független utasítások, hordozható programok
+	
+	Absztrakt utasítások, rövidebb és áttekinthetőbb programkód
+	Gyakori részfeladatokra előregyártott programrészek
+	Hátrány:
+		Lasabb programfutás + tárhely foglalás
+	Nyelvek részei:
+		Alapelemek
+		Formális szabályok az alapelemek összeépítésére
+		A nyelvi szerkezetek jelentése, a tartalmi helyességet leíró szabályok
+	A számítógép nem érti a magasszintű programozási nyelvek utasításait
+		Ezért szükséges a fordító program
+			A forrásnyelven megírt programot gépi kódra fordítja
+			A gépi kódú program csak ugyanolyan architektúrájú számítógépen fut, mint amilyenen lefordították
+		Értelmezés
+			Az értelmező a forrásprogramot utasításonként értelmezi és hajtja végre minden futtatáskor, így a program hordozható, de  a végrehajtása lassabb lesz
+	Programkészítés lépései:
+		1.Probléma elemzése
+		2.Program egyes részeinek megtervezése
+		3.Program elkészítése
+		4.Az optimális választások ellenőrzése
+		7.Felhasználói és fejlesztői dokumentáció készítése
+	Specifikáció:
+		Feladatleírás
+			Mit kell csinálnia a programnak? Mi lesz benne?
+		Algorítmus
+			A megoldás lépésről lépésre történő leírása imperatív módon.
+	Szintaktikai hiba:
+		Nyelvtani szabályok szerint hibás
+	Szemantikai hiba:
+		Nincs értelme az utasításnak
+	Futási idejű hibák:
+		Végtelen ciklus, hibás adatbevitel, stb
+	Logikai hibák
+		Látszólag helyes, de nem az elvárt kimenetett generálja
+	Dokumentálás
+		A kódot emberek is olvassák, ezért olvashatónak kell lennie
+		Karbantarthatóság
+	Helyes algorítmus jellemzői
+		Egy értékhez egyértelmün hozzá rendel egy értéket
+		Véges számú lépésből áll
+		egyértelmü, minden lépés pontosan definiált
+		teljes: minden esetet kezel
+		általános: minden hasonló problémára alkalmazható
+	Turing gép
+		Absztrakt automata, a valóságos digitális számítógép leegyszerűsített modellje
+		A gépiesen leírt algorítmusok precíz leírása
+	Program
+		algorítmusok leírása valamely programozási nyelven
+	Adatok
+		Az adatok tárolási célokat szolgáló strukturális elrendezést adatszerkezetnek nevezzük
+		Az adatokon végrehajtandó műveletek
+		Vezérlési szerkezetek az adatokon végrehajtandó műveletek sorrendjét határozzák meg
+	Vezérlési szerkezet
+		Szekvencia
+			a megadott utasítások egymás utáni végrehajtása
+		Iteráció
+			A megadott utasítások többszöri, ismételt végrehajtása
+		Szelekció
+			Az algorítmus feltételtől függő elágaztatása, választás a végrehajtandó utasításcsoportok között
+		Programozás során a számítógép számára értelmezhető nyelven utasításokat fogalmazunk meg
+		A kódolás megkezdése előtt a megoldandó feladatot algoritmizálni kell, azaz lépésekre kell bontani és megkell határozni a műveletek végrehajtásának sorrendjét
+		Nincs olyan általános módszer, amely segítségével egy algorítmus szisztematikusan kidolgozható lenne (nem csak egy megoldás létezik)
+	
+	C programozási nyelv alapelemei:
+		Magasszintű fordítoprogrammal használható
+		Imperatív:
+			A program megoldó algorítmus leírása, a szgépnek utasításokat adunk hogyan hajtsa végre a feladatot
+		Kifejezés-orientált
+			Alapelemei kifejezések, és a program kifejezések kiértékeléséből áll
+		Statikusan típusos nyelv
+			Minden változót előre deklarálnunk kell, és minden adattipussal csak a rajta elvégezhető műveleteket tehetjük meg.
+		Eljárás-orientált, strukturált
+			A program utasításai blokkokba szervezettek a megvalósított funkció alapján.
+			Utasításblokk: utasítások {} között
+			C-ben minden eljárás függvény
+			Széles könyvtári függvény választék
+		Támogatja a moduláris programozásr
+			A program egy vagy több egységből áll és előre elkészített modulok is felhasználhatók
+		Azonosítók
+			Betük, számjegyek és az aláhúzás karakter kombinációjaként hozható létre
+			Nem kezdődhet számjeggyel
+			Kis és nagybetű érzékeny
+		Literálok
+			Egész konstansok
+				Számjegyek sorozata, ahol a számjegyek decimális, oktális vagy hexadecimális számrendszerbeli jegyek
+				Pozítiv értéket jelől, ha nincs elötte negatív előjel
+			Lebegőpontos konstans
+				Olyan decimális szám, amely előjeles valós számotreprezentál
+			Konstans
+				Egyszeres idézőjelek közé zárt egyetlen karaktert reprezentáló szekvencia
+			Sztring konstans
+				Kettős idézőjelek zárt karaktersorozat
+					"ez egy sztring konstans"
+				Tárolásuk
+					A karakterek tartalmazó byte-sorozat végén van egy 0 értékű bíte
+			Operátorok
+				Egy vagy több karakterből álló műveleti jelek
+					+, ++, !=, &&
+			Változó
+				Egy adat tárolására szolgáló, névvel ellátott absztrakt tárhely
+				Azonosító névvel rendelkezik
+				Tárolási osztály
+				Memória cím
+					1.Deklarálás
+						int a
+					2.Inicializálás
+						int a = 4;
+					3.Hivatkozás
+						int c = a + 4;
+			 Enum
+			 	Olyan adattípus, melynek értékei egy konstanshalmazból kerülnek ki
+			 		enum answer {NO, YES, MAYBE};
+			 		Konsntansok értéke a megadott sorrendben 0,1,2
+			 Operanduls
+			 	A C nyelv azon eleme, amelyben az operátor kifejtí hatását.
+			 Kifejezés
+			 	Vagy egyetlen operandusból, vagy operandusok és műveleti jelek kombinációjából épül fel
+			 		Elsődleges kifejezés:
+			 			Literál, azonosító, függvényhívás, tömbindex kifejezés
+			 		Összetet kifejezés
+			 			Literál, azonosító, ....
+			 EGy kifejezés kiértékelésének eredménye lehet
+			 	Egy érték kiszámítása
+			 	Függvényhívás
+			 	Mellékhatás
+			 Mellékhatás
+			 	Amikor a kifejezés kiértékelése a program valamely változójában változást idéz elő
+			 		a = 2 + 3;
+			 		az érték 5-re változik
+			 A C nyelvben nincs külön logikai adattípus!
+			 	0 vagy nem 0
+			 Bonyuloltabb feltételek írásához, a feltételek összekapcsolásához szükség van logikai operátorokra
+			 	&& logikai ÉS , || logikai VAGY
+			 Léptető operátor
+			 	A = a +1, a++; ++a;
+			 	a = a-1,  a--, --a;
+			 Értékadó operátor
+			 	a = 10; b= (a + 2)	
+			 Összetet értékadás
+			 	a = a + 2;
+			 	a +=2;
+			 Egyéb operátorok
+			 	Bitművelet operátorok
+			 	Pointer
+			 	sizeof
+			 Feltételes operátor
+			 	kif1 ? kif2 : kif3
+			 	Mindig csak az egyik értékelődik ki, amelyik nem 0 
+			 Típus konverzió
+			 	Kifejezések kiértékelésekor, ha kétoperandusú operátor különbőző típusuu operandusokkal rendelkezik
+				Függvények megfelelő argumentummal történő meghívásához
+				Implicit
+					A fordító végzi, rögzített szabályok alapján
+				Explicit
+					A programozó írja elő a tipuskonverziós operátort
+				
+					int a=5, b=2;
+					double c;
+					c = a / b; c = 2.0;
+
+A C nyelv utasításai
+	Feltételes utasítások
+		Kifejezés utasítás
+		Tetszőleges ukifejezés utasítás lesz, ha utána ;-t teszünk
+			int a;
+			area = a * b *c;
+			i++;
+			a = b = 0;
+	Űres utasítás
+		Akkor van rá szükség, amikor logikailag nem kívánunk semmilyen tevékenységet végrehajtani, vagy az adott kódrészt még nem dolgoztuk ki, de szintaktikai szabályok szerint a program adott pontján utasításnak kell szerepelnie
+			double a, b , c;
+			if (b ! = 0){
+				c = a / b;
+			} else ; // űres utasítás
+	Összetett utasítás
+		Logikailag összetartozó deklarációk és utasítások egyetlen összetett utasításba csoportosítására szolgál.
+		Mindenhol használható, ahol szintaktikailag utasítás megadása szükséges.
+			{
+				lokális definíciók és deklarációk
+				utasítások
+			}
+		Mikor használjuk?
+			Amikor több logikailag összefüggő utasítást egyetlen utasításként kell kezelni.
+			Függvények törzseként.
+			Szelekciós blokk és ciklus utasítástörzs megadására
+			Definíciók és deklarációk érvényességének lokalizálására
+	Szelekciós utasítások
+		If utasítás
+			Valamely utasítás végrehajtását egy feltétel kifejezés értékétől teszi függővé
+			Az if utasításai csakis akkor hajtódnak végre ha egy feltétel igaz
+		A C nyelvben nincs logikai adattípus
+			A szelekciós olyan feltétel amelynek rétéke egészre konvertálható
+			A szelekciós feltétel hamis, ha a kifejezés 0-ra értékelődik ki, egyébként igaz.
+		A szelekciós feltételek láncólhatók, de mivel nincs logikai típus, a feltételnek 0-ra vagy 1-re kel értékelődnie
+	Többírányú elágazás
+		Kiértékelődik az első kifejezés
+			Ha igaz akkor a hozzá füződő utasítás hajtódik végre
+		Ha hamis akkor a második kifejezlés értékelődik ki
+			Ha igaz akkor ....
+		Ha az egyik utasítás sem teljesül, akkor az utolsó else kerül végrehajtásra
+	Switch
+		Többírányú programelágazást teszt lehetővé, olyan esetekben amikor egy egész kifejezés értékét több konstans értékkel kell összehasonlítani
+			switch (kifejezés){
+				case konstanskif. :
+					utasítások;
+				case konstans kif :
+					utasítások;
+				default :
+				 	utasítások;
+			}
+		A megadott esetek száma implementációtolfüggő
+		Minden konstasn kifejezésnek egyedi értékkel kell rendelkeznie
+		A default megadása nem kötelező
+	Ciklus Utasítások
+		Utasítások autmatikus ismétlését biztosító programszerkezet
+		Ismétlés addig tart amíg az ismétlési feltétel igaz
+		A ciklusból kilépni a vezérlő feltétel hamissá válása előtt a break, vagy return utasítással lehet.
+	A vezérlőfeltétel-kifejezés egészre konvertálódó logikai kifejezésnek kell lennie
+	
+	While
+		Addig ismétli az utasításokat amíg a vezérlő feltétel kifejezés értéke igaz
+		Előtesztelő ciklus
+			while (feltétel){
+				utasítás;
+			}
+	Vezérlő feltétel
+		Általában relációs és logikai operátorok használatával írt logikai kifejezés
+			pl
+				int n = 5;
+				while ( n > 0) {
+				        ....
+				}
+	Végtelen ciklus elkerülése
+		A vezérlő feltételnek véges számú lépés után hamissá kell hogy váljon.
+	Forciklus
+		Akkor használjuk ha a ciklusmagban megadott utasítást adott számszor kívánjuk végrehajtani.
+
+Függvények
+	Függvény
+		A program olyan névvel ellátott egysége amely a program más részeiből annyiszor meghívható, ahányszor szükség van a függvényben definiált tevékenység sorozatra
+	Procedurális programozás
+		A program sok kisméretű, adott feladatot végrehajtó, jól kézben tartható függvényből épül fel
+		Gyakran használt függvények kódját könyvtárakba rendezhetjük
+	
+	   // függvény deklarálás
+	   int main(){
+	   .
+	   .
+	   .
+	   }
+	   //függvény definíciója
+	A saját függvényt mindig definiálni kell
+		A függvény alapértelmezés szerint int volt, ha nem adunk visszatérési tipust
+	
+	void SajatFuggveny(int* a, int b);
+	
+	Return
+		Vezérlés átadó utasítás
+			return a;
+			return 0;
+	Command-query elv
+		A parancsfüggvényeket azért használjuk, hogy mellékhatásuk legyen.
+		A query típusú fv egy kérdésre válaszol, kiszámol valamit és az eredményt visszaadja-
+Pointer
+	Olyan speciális változó, ami egy másik változó címét tárolja
+Programozás ZH
+			10.PDF
+FüggvényHívás
+	A hívó programrész...
+		helyet foglal a visszatérési értéknek
+		eltárolja a visszatérési címet
+		elhelyezi a hívási argumentumokat a memóriában fordított sorrendben
+     	A meghívott függvény helyet foglal a saját lokális változói számára
+     	A meghívott függvény a lefutása után visszaadja az értékét és felszabadítja a lokális váltózóknak lefoglalt memóriát
+Rekurzió
+	Rekurzív az a függvény amely kövzetlenül vagy közvetve önmagát hívja.
+	Ha egy függvény saját magát hívja, azt önrekurziónak nevezzük
+	Ha a függvények egy csoportja kölcsönösen egymást hívja, azt kölcsönös rekurziónak nevezzük..
+		PL: Ha A -> B akkor B -> A
+   Szabályai:
+   	1 A báziskritérium megadása kötelező.
+   	2 Minden lépésben közeledni kell a báziskritériumhoz.
+   Jobbrekurzív függvény:
+   	Egy rekurzív függvény jobbrekurzív, ha a rekurzív függvényhívás a függvénytörsz UTOLSÓ utasítása
+   Balrekurzív
+   	Ha nem az UTOLSÓ utasítás
+   Minden rekurzív elljárás megvalósítható iterációval és vice versa
+   Iteratív megoldások általában gyorsabbak és kevesebb memóriát fogyasztanak
+   
+Tárolási osztályok, memóriakezelés
+	Minden azonosítóhoz legalább 2 jellemző szükséges, azért hogy a C fordító korrekt kapcsolatot tudjon létesíteni
+	1.Típus
+		Meghatározza a változó számára lefoglalt memória-terület méretét és a benne tárolt érték értelmezését
+	2.Tárolási osztály
+		Meghatározza, hogy a változó hol jön létre a memóriában, és ez definiálja a változó élettartamát.
+  Tárolási osztályok C-ben:
+  		auto, register, static, extern
+  Tárolási osztály megadása
+  		Deklarácóban a típus előtt,ha hiányzik, a fordító határozza meg a deklaráció programbeli helye alapján
+  Változók élettartama
+  	Élettartam: a program végrehajtásának az az időszaka, amelyben az adott változó a memóriában helyet foglal.
+  		Fajtái:
+  			1.Globális: A változó számára kijelölt memóriaterület és a benne tárolt érték a program futásának teljes ideje alatt megmarad
+  			2.Lokális: A memória terület és a benne tárolt érték csak abban a blokkban létezik, amyelben deklaráltuk.
+  			3.Dinamikus: A programozó által futási időben lefoglalt memóriaterületen tárolt változók élettartama
+  		Hatókör:
+  			A program azon része, amelynek határain belül az adott azonosító elérhető
+  		Memóriahasználat
+  			Az azonosító deklarációjáának helyétől és a tárolási osztálytól függ
+  		    -Globális változók
+  		    		A program futása során változatlan mennyiségű adat van
+  		    -Lokális változók
+  		    		A veremben tárolt adatok mennyisége függvényhíváskor nő, majd visszatéréskor csökken mivel a fordító automatikusan felszabadítja a területett
+  		    -Dinamikusan foglalt memóriaterület
+  		    		A programozó futási időben foglalhat le memóriaterületet
+  		    -Globális Memóriaterület
+  		    		-Függvényeken kívül definiált globális változók
+  		    		-Nem nevesítet sztring konstansok
+  		Verem
+  			A legtetején jönnek létre függvényhíváskor a lokális változók és szintén a tetején lévők szünnek meg először, amikor visszatérünk a fügvényből
+  		Kupac
+  			Dinamikusan lefoglalt és felszabadított memóriaterület
+  			Függvényből való visszatérés után is megmarad
+  A C fordító müködése
+  	forráskód -> [ (előfeldolgozó) -> (belső fordító) ] -> tárgykód
+  					C fordító program
+  	Egy forrásállomány az include utasítással beépített header állományokkal együtt egy fordítási egységet alkot.
+  	
+  	Futtatható program előállítása
+  		1.Minden forrásállomány lefordítása tárgykóddá.
+  		2.A tárgykódok összeszerkesztése futtatható programmá
+  	Sororientált szövegfeldolgozó
+  		Egy sor = egy utasítás
+  		Feladata a lexikális elemzés és átalakítás
+  			1.A forráskód átkódolása a C karakterkészletnek megfelelően.
+  			2.Megtört sorok egyesítése
+  			3.Az egymás mellett álló sztring konstansok összefűzése
+  			4.Kommentek helyetesítése szóközzel
+  			5.Az előfordítónak szóló utasítások végrehajtása
+  		Állományok beépítése
+  			#include <>	
+  		A makró azonosító neve és paraméterlistája között NE legyen szóköz!	
+  		
+  		
+  		9.PDF
+Összetett adattípusok
+	Tömb: Azonos típusú, a memóriában szomszédosan elhelyezkedő adatok indexelt, fix méretü tárolója
+	Struktúra: különböző tipusú, önnáló névvel rendelkező, a memóriában szomszédosan elhegyelzkedő adatok tárolója
+	Union: a memóriában átlapoltan tárolt struktúra
+	
+	Struktúra:
+		Az értékek megadott sorrendben tárolódnak el
+		A struktúra adattagja lehet tömb
+		Új típus amihez saját műveleteket lehet definiálni.
+		Egy összetett ubjektum adatait tárolja
+	Tömb:
+		Több egyforma objektum tárolója
+	Struktúra Vs Tömb:
+		Sturktúrát kell használni, ha
+			-Összetartozó adatok különböző tipusúak
+			-Az összetartozó adatokat egy függvény adja vissza
+			-Az adatelemekkel nem ugyanazt a műveletet kell végezni
+		Kódolási konvenció:
+			nagymértékű struktúrának nem az értékét adjuk át függvény argumentumént, hanem a címét.
+			
+Fájlkezelés
+	A program futása alatt, az adatok a RAM-ba vannak tárolva
+	A hosszútávú adattárolásra alkalmas eszközön az adatokat fájlokban tároljuk 
+Fájltípusok
+	A C a fájlokat egydimenziós bájt tömböknek tekinti.
+	Két csoport
+		Szöveges állomány:
+			Olvasható karakterek sorozata
+			soronként írható, olvasható
+			a sor végét a CRLF karakter jelzi
+			az állomány végét az EOF karakter jelöli.
+		Bináris állomány:
+			Byteok sorozata
+			nem olvasható
+Fájlkezelés lépései
+	A fájlok azonosítása az stdio.h-ban lévő FILE struktúra mutatóval történik
+		1.FÁjlmutató létrehozása (minden fájlhoz külön)
+		2.Fájl megnyitása
+		3.Fájlmüveletek(Írás, olvasás, ...)
+		4.Fájl lezárása
+
+	Fájl megnitás
+		A megnyitni kivánt állomány nevét, teljes elérési utvonalát
+			pl: c:\\asd.txt
+			r -> létező fájl olvasása
+			w -> fájl írása / ha nem létezik akkor létrehozni
+			a -> fájlhoz hozzáadás
+	Fájl műveletek
+		Szöveges állományba írás
+			fprintf(fp, "..");
+			fscanf(fp, "...", &v);
+	fájl lezárása
+		int fflush(FILE* fp);	
+		
+				
+			              8.ppt
+			
+1.Kétdimenziós tömbök
+	Létrehozásuk: Egy kétdimenziós tömböt a következő formában deklarálunk C-ben:
+		int tömb[sorok][oszlopok];
+		A sorok és oszlopok számát előre meg kell adni.
+
+	Tárolásuk: A memóriában a tömbök sorfolytonosan tárolódnak, vagyis egymást követően helyezkednek el. Például egy 2x3-as tömb így nézhet ki memóriában:
+		[0][0] [0][1] [0][2] [1][0] [1][1] [1][2]
+		
+		Inicializálás: Az elemeket kezdőértékekkel tölthetjük fel. Példa:
+		int tomb[2][3] = {{1, 2, 3}, {4, 5, 6}};
+		
+		Használat függvényekben: Ha egy kétdimenziós tömböt átadunk egy függvénynek, akkor a kezdőcímét és a dimenzióit is meg kell adnunk:
+		void kiir(int tömb[][3], int sorok);			
+			
+			
+
+2. Dinamikus memóriafoglalás
+	Miért van rá szükség? Ha nem tudjuk előre a tömb méretét (például felhasználói bemenet alapján döntünk), a dinamikus memóriafoglalás lehetővé teszi, hogy futási időben foglaljunk helyet.
+
+	Fő függvények:
+
+	malloc: Memóriafoglalás inicializálatlan területtel.
+	calloc: Memóriafoglalás, amely minden elemet nullára inicializál.
+	free: A lefoglalt memória felszabadítása.
+	
+	Probléma: Ha elfelejtjük felszabadítani a memóriát, "memóriaszivárgás" keletkezhet.
+
+3. Mutatótömbök
+	Mit jelent?: Egy mutatótömb egy olyan tömb, amelynek elemei címeket (mutatókat) tárolnak. Ez különösen hasznos kétdimenziós tömbök dinamikus helyfoglalásához.
+
+4. Tömbműveletek
+	Kiválogatás: Egy eredeti tömbből csak bizonyos feltételnek megfelelő elemeket gyűjtünk ki egy új tömbbe.
+	Példa: Az A tömb páros elemei kerüljenek egy B tömbbe.
+	
+	Halmazműveletek:
+		Metszet: Az A és B tömb közös elemeit gyűjtjük össze.
+		Különbség: Az A tömb azon elemei, amelyek nem szerepelnek B-ben.
+		Unió: Az A és B tömb összes eleme ismétlődés nélkül.
+		Összefuttatás: Két rendezett tömb egyesítése úgy, hogy az eredmény is rendezett legyen.
+
+5. Rekurzív megoldások
+	Mit jelent?: Halmazműveleteket több sorozatra is alkalmazhatunk rekurzióval.
+
+	Példa: Az A, B, és C tömb metszetét úgy számíthatjuk ki, hogy előbb az A és B tömb metszetét számoljuk ki, majd ezt használjuk a C-vel.
+	Rekurzió használata:
+
+A	 műveletet két sorozatra végezzük el, és az eredményt egy új sorozattal ismételten alkalmazzuk.
+		
+  		7.Előadás
+Sorozatok nevezetes algoritmusai
+	1.Eldöntés
+	2.Kiválasztás
+	3.Keresés
+	4.Rendezés
+
+	Egy sorozathoz egy értéket rendelő algoritmusok:
+		Számlálás, összegzés, eldöntés, kiválasztás, keresés
+	Rendezés
+	Egy sorozathoz egy sorozatot rendelő algoritmusok
+		Kiválogatás
+	Egy sorozathoz több sorozatot rendelő algoritmusok
+		Szétválogatás
+	Több sorozathoz egy sorozatot rendelő algoritmusok
+		Metszet, különbség, egyesítés, összefuttatás
+	
+	Eldöntés
+		Van-e egy N elemü sorozatban legalább egy T tulajdonságú elem
+	Kiválasztás
+
+Gabó Által tanult rendezés, stb.
+  		
+  		
+  		
+  		
+  		
+  		
+  		
+  				   
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+			 	
+			 			
+			 
+				
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
