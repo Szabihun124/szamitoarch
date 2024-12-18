@@ -89,6 +89,87 @@ Unix Fájlnév kifejtés
 	A  *  tetszőleges számú és tetszőleges karakterre illeszkedik
 	A [ ]-ba írt karakter sorozat, ileszkedik egy valamelyik bezárt karakterre
 	A [!] illeszkedik bármely, kivéve a ! utáni karakterre
- 	
-		
+Gyökér jegyzék
+	Az eszköz kitűntetet jegyzéke
+	Az a jegyzék, ami nincs bejegyezve más jegyzékbe
+	Kiindulópontja a hierarchikus faszerkezetnek
+	Kitüntetett helyen van az eszközön
+Neuman elv
+	1. A számítógép fő részei
+		Vezérlő egység
+		Aritmetikai és Logikai egység
+		A tár, ami címezhető és újraírható
+		Ki és bemeneti egységek
+		A részegységek elektronikusak legyenek és bináris számrendszert használjanak
+	2. A tárolt program elvű legyen a számítógép, azaz a program és az adatok ugyanabban a tárban 		   tárólódjanak
+		A program feldolgozható, módosítható
+	3. A vezérlő egység határozza meg a működést a tárból kiolvasot utasítások alapján, emberi 		   beavatkozás nélkül
+Számítógép hálózati osztályok
+	GAN -> (Global Area Network) Világra kiterjedő, nagy sebességü hálózat
+	WAN -> (Wide Area Network) Sok ezer-km-re kiterjedő, késleltetési ideje kisebb a GAN-tól
+	MAN -> (Metropolitan Area Network) Nagyvárosra, városra kiterjedő
+	LAN -> (Local Area Network) 10km-es nagyságrendben a kiterjedése, kis késleltetés
+	VLAN ->(Veri Local Area Network xd) hálózatoknak cm-m a kiterjedése, igen nagy sebesség xd
+Neuman architektúrában a vezérlő és dekódoló egység szerepe
+	A gépi instrukció elemzése, dekódolása és a CPU többi elemének, különösképpen a végrehajtó 
+	egységnek öszehangolt müködtetése
+UNIX Os parancsértelmező burok adatfolyamai
+	nyitott adatfolyam
+		stdin -> billentyűzet
+		stdout-> képernyő,ablak
+		stderr-> képernyő, ablak
+Utasításokra eső ciklusok száma CISC vs RISC
+	CISC (Complex Instruction Set Computer)
+		Az utasítások összetettebbek, gyakran több műveletet hajtanak végre, emiatt egy utasítás 		több órajelciklust is igénybe vehet végrehajtáskor
+	RISC (Reduced Instruction Set Computer)
+		Az utasítások egyszerűbbek, és úgy vannak tervezve, hogy jellemzően egy órajelciklus 			alatt végrehajtódjanak
+Meghaladhatja-e egy feladat esetében a hasznosított párhuzamosság értéke a rendelkezésre álló párhuzamosságét? Indokolja!
+	Nem haladhatja meg, mert a hasznosított párhuzamosság legfeljebb a rendelkezésre álló 			párhuzamosságig terjedhet, azt nem haladhajta meg!
+Mit jelent a RAM esetében a „tetszőlegesség” vagy „véletlenség” a névben?
+	A tetszőlegesség arra utal, hogy a RAM-ban az adatok bármely memóriacímről azonos idő alatt 		elérhetők, függetlenül azok fizikai elhelyezkedéséről
+Hibakezelés NEUMAN elvű számítógépeknél
+	Van egy programrész a memóriában, mely az esemény kezelője. Az esemény bekövetkeztekor a 		programvezérlés menete megszakad, a vezérlés a kezelőre ugrik és ha abból vissza lehet térni 		folytatódik a normális programfuttatás a megszakítási pont után
+Mi a fájl fogalma?
+	A fájl egy adatcsomag, amit a számítógép a háttértáron kezel és olvasható vagy módosítható 		formában tárol	
+Mi a főbb jellemzői a csomagkapcsolásos számítógép hállózat adattovábbításának?
+	Adatok darabolása:
+		Az adatokat kisebb csomagokra bontják, amelyek önállóan haladnak a hálózaton.
+	Csomagok önálló útvonala:
+		A csomagok a célállomás felé különböző útvonalakon haladhatnak, nem feltétlenül ugyanazon az úton.
+		A célállomáson a csomagokat újra összerakják a helyes sorrendbe.
+	Megbízhatóság:
+		A csomagkapcsolás támogatja a hibaellenőrzést és a hibás csomagok újraküldését.
+	Hatékony erőforrás-kihasználás:
+		A hálózati erőforrások dinamikusan oszthatók meg a csomagok között, mivel nincs dedikált kapcsolat.
+	Nincs állandó kapcsolat:
+		Az adatok továbbítása során nem szükséges előzetesen létrehozni állandó kapcsolatot (szemben az áramkörkapcsolással).
+	Torodási lehetőség (forgalomirányítás):
+		Ha egy hálózati csomópont túlterhelt, a csomagokat más útvonalra lehet irányítani.
+	Rugalmasság:
+		Ha egy útvonal kiesik vagy meghibásodik, a csomagok alternatív útvonalakon is eljuthatnak a célállomásra.
+Regiszterek szerepe:
+	A regiszterek a CPU rendkívűl gyors memóriái, amelyek ideiglenesen tárolják az adatokat, utasításokat és címeket a feldolgozás sebességének növelése érdekében
+Kliens-Szerver koncepció
+	Egy olyan hálózati modell, ahol a kliens kéréseket küld, a szerver pedig ezeket feldolgozza és válaszokat szolgáltat
+Rendelkezésre álló vs Hasznosított párhuzamosság
+	A rendelkezésre álló párhuzamosság az erőforrások számát jelenti, míg a hasznosított párhuzamosság azt mutatja, hogy ténylegesen hány párhuzamos feladatot futtat a rendszer
+Milyen esetben és mi célból kell vizsgálnunk két utasítás függőségét
+	A két utasítás közötti függőségek vizsgálata alapvető fontosságú a párhuzamos számítások, a teljesítményoptimalizálás, az eszközök hatékony kihasználása és az összetett 		rendszerek működésének biztosítása érdekében
+Mágneses Tárolók 
+	Lemez (Disk):
+		A tároló médiát alkotó kör alakú lemez, amelyet gyakran fémből vagy műanyagból készítenek, és mágneses bevonattal van ellátva. Az adatok itt vannak tárolva, és a 			lemezen található a mágneses réteg, amely az adatokat rögzíti.
+	Mágneses fej (Read/Write Head):
+		A lemez fölött lebegő kis eszköz, amely az adatokat olvassa és írja. A fej mágneses mezőt alkalmaz, hogy a lemez mágneses rétegében tárolt adatokat beolvassa, vagy új 			adatokat írjon rá.
+	Motor (Spindle Motor):
+		A motor felelős a lemez forgatásáért. A lemez folyamatosan forog, hogy a mágneses fej hozzáférjen a tárolt adatokhoz.
+	Aktuátor (Actuator):
+		Az aktuátor mozgatja a mágneses fejet a lemez fölött, hogy a megfelelő helyekre érjen a lemezen. Az aktuátor biztosítja, hogy a fej pontosan a kívánt sávok fölé 			kerüljön.
+	Tárolófelület (Platter):
+		A lemez több rétegből is állhat, amelyeket platteneknek neveznek. Minden platten egy-egy adatréteget tartalmaz, és ezek együttesen növelhetik a tárolókapacitást.
+	Felület (Surface):
+		A mágneses lemez felülete, amely a mágneses adatokat tárolja. Minden egyes felület egy sávot tartalmaz, amelyen az adatok rendezve vannak.
+	Sávok (Tracks):
+		A lemez felületén koncentrikus körök alakjában elhelyezkedő adatsávok, amelyek az adatokat lineárisan tárolják.
+	Szektorok (Sectors):
+		Az adatsávokon belül kisebb részek, amelyek az adatokat blokkokra bontják. Egy szektor általában 512 bájtnyi adatot tárol.
 	
