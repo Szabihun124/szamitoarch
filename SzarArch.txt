@@ -1,0 +1,94 @@
+SzarChiTektúra
+CPU Főbb részei:
+	ALU (Arigmetikai és Logikai Egység)
+	Regiszterek
+	Belső sín
+	Dekódoló és vezérlő
+	Sínvezérlő
+	Címgeneráló
+Szekvenciális végrehajtás esetén mit jelent az egy utasításra eső ciklusok száma
+	Megmutatja, hogy egy processzornak átlagosan hány órajelciklusra van szüksége egy utasítás végrehajtásához
+Mit nevezünk jegyzéknek?
+	Egy fájl amely bejegyzéseket tartalmaz más fájlokról
+	pl Nevük, elhelyezésüket, tulajdonságokat, stb
+	Ugyanabba a jegyzékbe bejegyzett fájlok egy csoportot alkotnak, elkülöníthetők ezzel más jegyzékbe bejegyzet fájloktól
+Mit nevezünk fájlrendszernek?
+	A számítógépes operációs rendszerek egyik alapvető öszetevője, amely a háttértárolókon tárolt adatok rendszerezéséért, kezeléséért és eléréséért felel
+	Lehetővé teszi, hogy az adatok logikailag fájlok és könyvtárak formájában legyenek tárolva
+		pl: FAT32, NTFS, ext3
+Parancslista fogalma
+	A parancslista csővezetékek sora, szeparálva a következő operátorokkal:
+	A parancslista szintaxisa
+		>csőbal listaoperátor csőjobb
+			|| <- csak akkor folytatja a listát, ha a csőbal nem normális visszatérési értékü
+			&& <- csak akkor folytatja a listát, ha a csőbal normális visszatérési értékü
+			&  <- aszinkron végrehajtása a csőbalnak, azzonal indul a csőjobb is
+			;  <- soros végrehajtása
+Unix fájlnév kifejtés meta karakterek semlegesítése
+	Quótázás
+		Egyetlen karakter quótázása
+			\spec_karakter
+		Több karakter quótázása:
+			'karaktersorozat' <- Minden bezárt karakter, kivéve a '
+			"karaktersorozat" <- Ugyan az, csak váltózó/paramétert lehet behelyettesíteni, de fájlnevet nem :c
+Processzor teljesítményének NEM strukturális növelése
+	Órajel frekvencia növelése
+	A feladathoz szükséges instrukciók számának a csökkentése
+Processzor teljesítményének strukturális növelése
+	Utasításokra eső ciklusok számának csökkentése
+Valós párhuzamosság (Multi Processing xd)
+	A multi processing rendszerekben több CPU van
+Sín osztályozások 
+	Soros sín
+		Az adatokat bitenként, egymás után, egyetlen vezetékpáron kerülnek továbbításra
+			Egyszerübb fizikai kialakítás
+			Lasabb adatátviteli sebesség
+				pl: usb, SATA
+	Párhuzamos sín
+		Az adatokat több vezetékpáron, egyszerre, párhuzamosan továbbítja, azaz egy órajelciklus alatt több bitet küld.
+			Gyorsabb adatátviteli sebesség
+			Komplexebb fizikai kialakítás
+				pl: PCI
+	Vegyes sín
+		Kombinálja a soros és párhuzamos síneket
+		Egy soros vezérlőcsatorna melett több párhuzamos adatcsatornált használnak /// Vagy a módok között dinamikusan váltanak
+Adattfüggőségek
+	Valódi adatfüggőség , RAW (Read After Write)
+		Akkor fordul elő, ha egy utasítás által használt adatot egy korábbi utasítás hoz létre, és az utobbi utasításnak meg kell várnia, hogy az adat elérhető legyen
+	Hamis adatfüggőség
+		Ezek az adatfüggőségek nem valós adathasználatra épülnek, hanem a memória helyek újrafelhasználása miatt jönnek létre
+			WAW (Write After Write)
+				Akkor jelentkezik, ha két utasítás ugyanarra a regiszterre vagy memóriahelyre ír, de azok írási sorrendje fontos a helyes mműködéshez
+			WAR (Write After Read)
+				Akkor fordul elő, ha egy utasítás ír egy regiszterbe, vagy memória helyre, amelyet egy másik utasítás olvas, de a végrehajtás sorrendje megzavarhatná az adatintegritást
+Memóriák xDDD
+	RAM (Random Access Memory)
+		Véletlen Elérésű Memória
+		Olyan memória, melynél egy cella elérése nem függ a többitől, azaz akár véletlenszerű sorrendben is elérhetjük a cellákat
+	ROM (Read Only Memory)
+		Csakis Olvasható Memória NOWAY
+		Nem vesztik el az adataikat a gép kikapcsolásakor sem
+		Szintén random elérésüek, bájtjaik véletlenszerűen címezhetők és kiolvashatók, de viszont nem írhatóak
+	DRAM (Dynamic Random Access Memory)
+		Dinamikus RAM, faszom se írja le
+		Egy-Egy cellát egy tranzisztor-kondenzátor pár valósít meg egy bit tárolására
+		A kondenzátor tárolja az 1 bitet, ha fel van töltve
+		A tranzisztor az iráshoz és olvasáshoz szükséges
+	PROM (Programable ROM)
+		Programozható ROM
+		A felhasználható elvégezheti a beégetést, de csakis egyszer :(
+		A sor-oszlop háló celláit olvadó biztosítékok képzik
+		Beégetéskor a kiválasztott cellák biztosítékai kiégnek, mint én
+	EPROM (Erasable PROM)
+		Törölhető PROM
+		Ultraviola fénynyel lehet törölni, majd újra porgramozni
+		A cellákban két tranzisztor, két kapu található
+Unix Fájlnév kifejtés
+	A nem dzsóker karakterek önmagukra illeszkednek
+	A  ?  bármely egyetlen karakterre illeszkedik
+	A  *  tetszőleges számú és tetszőleges karakterre illeszkedik
+	A [ ]-ba írt karakter sorozat, ileszkedik egy valamelyik bezárt karakterre
+	A [!] illeszkedik bármely, kivéve a ! utáni karakterre
+ 	
+		
+	
