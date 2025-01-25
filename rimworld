@@ -1,0 +1,1306 @@
+Mono path[0] = 'C:/RimWorld/RimWorldWin64_Data/Managed'
+Mono config path = 'C:/RimWorld/MonoBleedingEdge/etc'
+Initialize engine version: 2019.4.30f1 (e8c891080a1f)
+[Subsystems] Discovering subsystems at path C:/RimWorld/RimWorldWin64_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     8170 MB
+    Driver:   31.0.21921.1000
+Begin MonoManager ReloadAssembly
+- Completed reload, in  3.508 seconds
+D3D11 device created for Microsoft Media Foundation video decoding.
+<RI> Initializing input.<RI> Input initialized.<RI> Initialized touch support.UnloadTime: 0.808300 ms
+RimWorld 1.5.4297 rev994 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Mod Amplified Mobility Platform dependency (aoba.exosuit.framework) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Mod Taste of Vanilla - The Alpha Mythology dependency (sarg.magicalmenagerie) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D73E03000.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D740B0110.dll
+Prepatcher: Starting... (vanilla load took 8.760178s) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Performance Fish!!! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Performance Fish finished applying prepatches in 1.9988734 seconds 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Prepatcher: Game processing took 2468.9684ms 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Prepatcher: Serializing patched assemblies 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Prepatcher: Serializing took 1396.582ms 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Prepatcher: Setting refonly 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Prepatcher: Loading patched assemblies 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9E269040.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9EF29040.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D6D12FDE0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D77498030.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D77461020.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D774A5C40.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D774F5C50.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D77588A60.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D775BB070.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D6C9AC830.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D775DCE80.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D7681D040.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D77600290.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D76AA4030.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D77620AA0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D774870D0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D7765DCB0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D776620C0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D7766F6D0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D74232030.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D776986E0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D776A52F0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D74235A40.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D74468CE0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D776AD900.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D74237650.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D776C9B10.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D776D6F20.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D6D13E9F0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D770F2A60.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D776FD010.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D77710420.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D77769A30.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F150080.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D76AAB240.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D76C06040.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D76AAD850.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D7776C840.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D77775E50.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D77779A60.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D7747A880.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D77782470.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F221CA0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D773F9180.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D77464030.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F2238B0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F2340C0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D7778AA80.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F238AD0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F244EE0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D7778D690.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F2488F0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D770F5C70.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F24E500.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F253B10.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F259920.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F29DF30.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F2A0B40.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D4A4126B0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F2C9550.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F2D2760.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D76AB0460.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D4A413AC0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F30E770.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F33E190.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D6D3B9090.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F349BA0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D76C0C450.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F3587B0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F374FC0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F3771D0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F3C23E0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F3DCFF0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F3E6600.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F417E10.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D6C9B0A40.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F43C620.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F482430.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F4AA040.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F4B9E50.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F4C0C60.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F4C4A70.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F4CB480.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F4D1090.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F4DBAA0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F4E30B0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F4F00D0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F4F5EE0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F4FA0F0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F522500.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F559B10.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F56D010.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F570C20.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F588430.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F5B0040.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F5B3E60.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F5B5470.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F5B6A80.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F5C6490.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021DA0126040.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F5D02A0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D6CD370F0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D4A4162E0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F5D2EB0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F5D58C0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F5FAED0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F60AEE0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F6582F0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021DA023D040.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D774820B0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F664500.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F66AF10.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F66FD20.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F676530.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F69E740.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F6D8D50.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F6DB160.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D6CD43120.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F6EB570.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F704B80.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F71A990.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F71DBA0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D6D3C2120.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F744BD0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F7469E0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F74D7F0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F750C00.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F752810.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F76CC20.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F76F830.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F771A40.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F774850.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F775E60.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F79A280.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F7CB0A0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F7DB4B0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F7DC6C0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F7DF0D0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D774848C0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F7EDEE0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F8148F0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F845500.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F848F10.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F86E320.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F88AD30.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F8B1540.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F901B50.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F92F960.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F947F70.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F94A380.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9F958990.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FA449B0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FA733C0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D774031D0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D4A414ED0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FA785D0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FA7BBE0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FA8D3F0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FA90C00.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FAC0610.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FADEC20.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FB3A630.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FB6F240.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D77478070.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FB82A60.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FB8D270.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FB92080.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FB93690.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FB972A0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FBA00B0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FBBF0C0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FBC16D0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FBCC2E0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FBD20F0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FBE6900.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FBFD110.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FC03D20.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FC0B330.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FC17740.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FC1C750.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FC2A760.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FC77F70.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FC7CF80.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FC82F90.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FC8BFA0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D773F5160.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D6CD3B100.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FC94FB0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FC9BFC0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FCA1FD0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FCAD7E0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FCB21F0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FCB8A00.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FCDCA10.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FCEBA20.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FCF7A30.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FCF9C40.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FD00C50.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FD0AC60.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FD10C70.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FD16C80.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FD1EA90.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FD47AB0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FD4CAC0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FD698D0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FD8C6F0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FD8DF00.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FDACB20.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FDDB330.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FE00B40.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FE37750.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FE88760.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FE8B170.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FE8F980.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FE9F590.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D4A4176F0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FEA21A0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FEA79B0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FEACDC0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FEB65D0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FEBDDE0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FEC9FF0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FEDC610.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FEDF620.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FEE2C30.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D774051E0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FEE8240.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FEEBC50.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D4A40EA80.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FEEEA60.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FEF0070.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FEF4C80.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D9FF03090.dll
+Prepatcher: Done loading 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+RimWorld 1.5.4297 rev994 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Mod Amplified Mobility Platform dependency (aoba.exosuit.framework) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Mod Taste of Vanilla - The Alpha Mythology dependency (sarg.magicalmenagerie) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D76D58C50.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021DA9723110.dll
+Prepatcher: Restarted with the patched assembly, going silent. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[HugsLib] version 11.0.4 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[HugsLib] early-initializing AllowTool 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021DAAF0C010.dll
+[1.3]Graphics Setter - Loaded 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=magenta>[GW4kArmor]</color> Hello, world! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RimHUD v1.15.3] Initialized 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Loaded What's That Mod. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#34eb92>[Simple Personalities]</color> Hello, world! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Tried to use an uninitialized DefOf of type TimeAssignmentDefOf. DefOfs are initialized right after all defs all loaded. Uninitialized DefOfs will return only nulls. (hint: don't use DefOfs as default field values in Defs, try to resolve them in ResolveReferences() instead) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021DAD2AA070.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021DAD2C2AB0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021DAD2CDAC0.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021DAD330010.dll
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021DAD337820.dll
+GAGARIN: <color=green>StartUpStarted called!</color> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: <color=green>Cache not found or got purged!</color> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+b.4297:12/2/2024 12:00:00 AM:1.5.4297 rev994 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: Cache expired! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+b.4297:12/2/2024 12:00:00 AM:1.5.4297 rev994 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+ROCKETMAN:No more RocketMan <color=gray>"Log spam"</color>...
+I hope you're fucking satisfied. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+ReGrowth: Core 3.6-Mundi-rev9 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+ReGrowth: Wastelands 4.1-Prime-rev5 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+ReGrowth: ReTextures 1.2-Clapham-rev5 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: <color=white>LoadModXML_Profiler</color> took <color=red>10.029</color> seconds 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: CombineIntoUnifiedXML has <color=red>Context.IsUsingCache=False</color> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: <color=white>CombineIntoUnifiedXML_Profiler</color> took <color=red>2.021</color> seconds 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: <color=white>TKeySystem.Parse</color> took <color=red>0.003</color> seconds 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[SafePatcher]The xPath: "Defs/ThingDef[defName="GD_MSSS"]" not found 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[SafePatcher]The xPath: "Defs/ThingDef[defName="GD_TacticalPistol"]" not found 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[SafePatcher]The xPath: "Defs/ThingDef[defName="GD_MSSS"]" not found 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[SafePatcher]The xPath: "Defs/ThingDef[defName="GD_INGrenadeLauncher"]" not found 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[SafePatcher]The xPath: "Defs/ThingDef[defName="GD_SKGrenadeLauncher"]" not found 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[SafePatcher]The xPath: "Defs/ThingDef[defName="GD_BSLauncher"]" not found 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[SafePatcher]The xPath: "Defs/ThingDef[defName="Gun_SmartRifle"]" not found 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[SafePatcher]The xPath: "Defs/ThingDef[defName="Gun_SmartPistol"]" not found 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[SafePatcher]The xPath: "Defs/ThingDef[defName="Gun_SMG"]" not found 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[SafePatcher]The xPath: "Defs/ThingDef[defName="SmartMG"]" not found 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[SafePatcher]The xPath: "Defs/ThingDef[defName="Gun_SmartSniperRifle"]" not found 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[SafePatcher]The xPath: "Defs/ThingDef[defName="NS_UniversalWeapon_M60A_Bulldog"]" not found 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: <color=white>ApplyPatches_Profiler</color> took <color=red>17.893</color> seconds 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: <color=white>XmlInheritance.Resolve</color> took <color=red>0.972</color> seconds 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Parsed 0.5 as int. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Parsed 0.5 as int. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Parsed 0.1 as int. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Parsed 0.9 as int. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Parsed 0.8 as int. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Parsed 0.01 as int. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+b.4297:12/2/2024 12:00:00 AM:1.5.4297 rev994 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: <color=white>Cache created!</color> creating cache took <color=green>1 seconds</color> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: <color=white>ParseAndProcessXML_Profiler</color> took <color=red>30.936</color> seconds 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: <color=white>ClearCachedPatches_Profiler</color> took <color=red>0</color> seconds 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not resolve cross-reference: No Verse.SoundDef named MeleeHit_Wood_Sharp found to give to Verse.StuffProperties Verse.StuffProperties (using undefined sound instead) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not resolve cross-reference: No Verse.SoundDef named MeleeHit_Wood_Blunt found to give to Verse.StuffProperties Verse.StuffProperties (using undefined sound instead) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not resolve cross-reference: No Verse.SoundDef named Pawn_Melee_Punch_HitBuilding found to give to Verse.RaceProperties Verse.RaceProperties (using undefined sound instead) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not resolve cross-reference: No Verse.SoundDef named Pawn_Melee_Punch_HitBuilding found to give to Verse.RaceProperties Verse.RaceProperties (using undefined sound instead) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not resolve cross-reference: No Verse.SoundDef named Reload_Standard found to give to MVCF.Reloading.Comps.VerbCompProperties_Reloadable MVCF.Reloading.Comps.VerbCompProperties_Reloadable (using undefined sound instead) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not resolve cross-reference: No Verse.SoundDef named Reload_Standard found to give to MVCF.Reloading.Comps.VerbCompProperties_Reloadable MVCF.Reloading.Comps.VerbCompProperties_Reloadable (using undefined sound instead) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SimplyMoreBridges: Found 7 materials to generate bridge-definitions for. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SimplyMoreBridges: Generated the following stony bridges: HeavyBridgeSandstone,DeepWaterBridgeSandstone,HeavyBridgeGranite,DeepWaterBridgeGranite,HeavyBridgeLimestone,DeepWaterBridgeLimestone,HeavyBridgeSlate,DeepWaterBridgeSlate,HeavyBridgeMarble,DeepWaterBridgeMarble 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SimplyMoreBridges: Generated the following metal bridges: HeavyBridgeSteel,HeavyBridgePlasteel 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SimplyMoreBridges: Generated the following woody bridges:  
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[SoS2_Shuttle] Implied generation for vehicles is incomplete. Please define the VehicleBuildDef separately to avoid improper vehicle generation. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: <color=white>XmlInheritance.Resolve</color> took <color=red>0.972</color> seconds 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+FactionDef Insect must have at least one pawnGroupMaker with kindDef 'Peaceful', or 'permanentEnemy', 'isPlayer' or 'hidden' should be set to true. Otherwise no guests from this faction will arrive. This is a misconfiguration in Core. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+FactionDef RH_VOID must have at least one pawnGroupMaker with kindDef 'Peaceful', or 'permanentEnemy', 'isPlayer' or 'hidden' should be set to true. Otherwise no guests from this faction will arrive. This is a misconfiguration in [RH2] Faction: V.O.I.D.. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+FactionDef HALO_UNSC_Faction must have at least one pawnGroupMaker with kindDef 'Peaceful', or 'permanentEnemy', 'isPlayer' or 'hidden' should be set to true. Otherwise no guests from this faction will arrive. This is a misconfiguration in HALO - UNSC Faction. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+FactionDef Milira_Faction must have at least one pawnGroupMaker with kindDef 'Peaceful', or 'permanentEnemy', 'isPlayer' or 'hidden' should be set to true. Otherwise no guests from this faction will arrive. This is a misconfiguration in Milira Race. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+FactionDef Milira_AngelismChurch must have at least one pawnGroupMaker with kindDef 'Peaceful', or 'permanentEnemy', 'isPlayer' or 'hidden' should be set to true. Otherwise no guests from this faction will arrive. This is a misconfiguration in Milira Race. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+FactionDef GW_TotE_TalonsOfTheEmperor must have at least one pawnGroupMaker with kindDef 'Peaceful', or 'permanentEnemy', 'isPlayer' or 'hidden' should be set to true. Otherwise no guests from this faction will arrive. This is a misconfiguration in GrimWorld 40,000 - Talons of the Emperor. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=orange>[VehicleFramework]</color> Importing additional assets from vehicleassets. UnityVersion=2019.4.30f1 Status: <color=#008000FF>successfully loaded.</color> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: <color=white>XmlInheritance.Resolve</color> took <color=red>0.973</color> seconds 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Translation data for language English has 295 errors. Generate translation report for more info. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Fallback handler could not load library C:/RimWorld/RimWorldWin64_Data/Mono/data-0000021D48913010.dll
+Rimatomics found SoS2 -- Patching 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[TrueTerrainColors v1.12.17] Loaded cached true colors for 584 terrain defs from file. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PickUpAndHaul v1.1.2¼ welcomes you to RimWorld with pointless logspam. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[SRTS Expanded] Compatibility with Save our Ship 2 and Combat Extended are temporarily disabled at the moment. SoS2 compatibility will happen soon(ish), CE compatibility will not. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[SRTSExpanded] Overriding SOS2 Destructive Patches. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Utility Columns] - Patching... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[KCSG] Alpha Genes contains 1 missing symbols. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[KCSG] The Dead Man's Switch contains 6 missing symbols. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[KCSG] Vanilla Factions Expanded - Classical contains 2 missing symbols. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[KCSG] Fortification Industrial - Citadel contains 1 missing symbols. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[SmashPhil.SmashTools] Successfully applied compatibility patches for <color=#008080FF>RimHUD</color> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[SmashPhil.VehicleFramework] Successfully applied compatibility patches for <color=#008080FF>Map Preview</color> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[SmashPhil.VehicleFramework] Successfully applied compatibility patches for <color=#008080FF>Geological Landforms</color> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[SmashPhil.VehicleFramework] Successfully applied compatibility patches for <color=#008080FF>RimHUD</color> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[SmashPhil.VehicleFramework] Successfully applied compatibility patches for <color=#008080FF>Vanilla Fishing Expanded</color> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[SmashPhil.VehicleFramework] Successfully applied compatibility patches for <color=#008080FF>Save Our Ship 2</color> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=orange>[VehicleFramework]</color> version 1.5.1704 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=orange>[VehicleFramework]</color> <color=#008000FF>181 patches successfully applied.</color> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Wall Light: v1.5.8874.26767 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[XML Extensions] Initialized 3 SettingsMenuDef(s) and found 62 unused key(s) from 9 mod(s) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[XML Extensions] 2910 total patches run in 17349ms, 0 failed 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Alien race successfully completed 254 patches with harmony. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SOS2 SteamV2.7.4 active 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[SoS2] Vanilla Expanded framework detected - disabling vehicle wrecks in space 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+found no method 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+MoharFramework.CSSU JobDriver_Meditate_Transpile failed:
+System.NullReferenceException: Null method for MoharFW.CompSpawnSubplantUnlocker
+[Ref CDDB339A]
+ at HarmonyLib.PatchProcessor.Patch () [0x0001d] in <abec11463bc04855a5322a0a868aeb22>:0 
+ at HarmonyLib.Harmony.Patch (System.Reflection.MethodBase original, HarmonyLib.HarmonyMethod prefix, HarmonyLib.HarmonyMethod postfix, HarmonyLib.HarmonyMethod transpiler, HarmonyLib.HarmonyMethod finalizer) [0x0002a] in <abec11463bc04855a5322a0a868aeb22>:0 
+ at CSSU.Harmony_jobDriver_Meditate.Try_jobDriver_Meditate_IEnumeratorMoveNext_Patch (HarmonyLib.Harmony myPatch) [0x0003b] in <3f7fc16dceba45cdb788221128f0ea29>:0  
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+MoharFW.MoharGfx patched Mote.SpawnSetup successfully. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+MoharFW OHFP - CompEggLayer_Patch applied 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+MoharFW YAHA - successfuly completed 7 harmony patches.  
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: <color=green>StartUpFinished called!</color> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Geological Landforms v1.7.3] Found landform data in the following mods: Geological Landforms 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Geological Landforms v1.7.3] Loaded 44 landforms of which 0 are edited and 0 are custom. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+MVCF successfully applied 74 patches 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Starting loading graphics: 7313 - 1/25/2025 1:21:35 PM 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+(Eccentric Projectiles v6.2.2.0) Bundled package detected from 1 mods:
+Eccentric Tech - Foxy's Armory 2.0
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Archotech has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Archotech has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Archotech has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (Bionic) - Heart | Spine! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (Bionic) - Tongue | Spine! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (Bionic) - Jaw | Spine! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (Default) - Lung | Heart! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (Default) - Claw | Heart! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (Default) - Joywire | Heart! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[AllowTool] Applied compatibility patch for "Pick Up And Haul" 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=magenta>[GW4kArmor]</color> Found 127 maskable armor or weapons. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Loading asset bundle MuzzleFlash.shaders-windows 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Loaded shader Unlit/AnimatedAdditiveInstanced 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Muzzle Flash] Shader loaded from MuzzleFlash: Unlit/AnimatedAdditiveInstanced 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+  --> [What's That Mod] Took 1.56 seconds to scan all patches. <-- 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+What's That Mod: Wrote to 16557 mod descriptions, 256 patched defs resolved. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+What's That Mod took 1641 milliseconds to generate all def descriptions. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[HugsLib] initializing Autopsy 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (Default) - Hand | Heart! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (Default) - Hand | Heart! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (Default) - Fangs | Heart! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (Default) - Claw | Heart! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (Bionic) - Lung | Spine! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[OgreStack]: Modify Stack Sizes Complete 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[ShowMeYourHands]: Defined hand definitions of 1042 weapons 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Archotech has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Archotech has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (Archotech) - Jaw | Psychic! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (Archotech) - Heart | Psychic! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (Archotech) - Lung | Psychic! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Archotech has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Archotech has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Archotech has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (Archotech) - Spine | Psychic! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Archotech has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (Default) - Lung | Heart! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Bionic has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganAnimal has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganAnimal has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganAnimal has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganAnimal has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganAnimal has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganAnimal has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganAnimal has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganAnimal has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganAnimal has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganAnimal has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganAnimal has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganAnimal has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (GeneticOrganAnimal) - Jaw | Tail! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (GeneticOrganAnimal) - Jaw | Tail! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (GeneticOrganAnimal) - Jaw | Tail! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (GeneticOrganAnimal) - Spine | Tail! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (GeneticOrganAnimal) - Spine | Tail! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (GeneticOrganAnimal) - Spine | Tail! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganAnimal has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganAnimal has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganAnimal has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (GeneticOrganAnimal) - Heart | Tail! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (GeneticOrganAnimal) - Heart | Tail! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (GeneticOrganAnimal) - Heart | Tail! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (GeneticOrganAnimal) - Lung | Tail! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganAnimal has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganAnimal has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganAnimal has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (GeneticOrganHuman) - Spine | Claw! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganHuman has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganHuman has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (GeneticOrganHuman) - Spine | Claw! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganHuman has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganHuman has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganHuman has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganHuman has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (GeneticOrganHuman) - Heart | Claw! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganHuman has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (GeneticOrganHuman) - Jaw | Claw! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganHuman has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganHuman has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganHuman has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganHuman has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganHuman has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganHuman has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganHuman has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganHuman has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganHuman has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganHuman has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganHuman has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (GeneticOrganHuman) - Jaw | Claw! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture GeneticOrganHuman has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (Default) - Jaw | Heart! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (Default) - Lung | Heart! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (Default) - Spine | Heart! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (Default) - Spine | Heart! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Same texture with 2 different masks inserted into texture atlas manager (Default) - Psychic | Heart! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Default has dimensions of 64 x 64, but its mask has 72 x 72. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Finished loading graphics - 1/25/2025 1:21:47 PM 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Starting loading icons: 11081 - 1/25/2025 1:21:47 PM 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Finished loading icons - 1/25/2025 1:21:47 PM 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Grimworld is loading it's tag system for the first time! Setting default values 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Bad string pass when reading rule Prime Axiom 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in WorldGenStep: System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 4DBF0F41]
+ at System.Collections.Generic.Dictionary`2[TKey,TValue].FindEntry (TKey key) [0x00008] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+ at System.Collections.Generic.Dictionary`2[TKey,TValue].TryGetValue (TKey key, TValue& value) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+ at Verse.Grammar.GrammarResolver.AddRule (Verse.Grammar.Rule rule) [0x00002] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+ at Verse.Grammar.GrammarResolver.ResolveUnsafe (System.String rootKeyword, Verse.Grammar.GrammarRequest request, System.Boolean& success, System.String debugLabel, System.Boolean forceLog, System.Boolean useUntranslatedRules, System.Collections.Generic.List`1[T] extraTags, System.Collections.Generic.List`1[T] outTags, System.Boolean capitalizeFirstSentence) [0x00171] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+ at Verse.Grammar.GrammarResolver.ResolveUnsafe (System.String rootKeyword, Verse.Grammar.GrammarRequest request, System.String debugLabel, System.Boolean forceLog, System.Boolean useUntranslatedRules, System.Collections.Generic.List`1[T] extraTags, System.Collections.Generic.List`1[T] outTags, System.Boolean capitalizeFirstSentence) [0x00000] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+ at Verse.Grammar.GrammarResolver.Resolve (System.String rootKeyword, Verse.Grammar.GrammarRequest request, System.String debugLabel, System.Boolean forceLog, System.String untranslatedRootKeyword, System.Collections.Generic.List`1[T] extraTags, System.Collections.Generic.List`1[T] outTags, System.Boolean capitalizeFirstSentence) [0x0000c] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+ at RimWorld.NameGenerator.GenerateName (Verse.Grammar.GrammarRequest request, System.Predicate`1[T] validator, System.Boolean appendNumberIfNameUsed, System.String rootKeyword, System.String untranslatedRootKeyword) [0x0007a] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+ at RimWorld.IdeoFoundation_Deity.FillDeity (RimWorld.IdeoFoundation_Deity+Deity deity) [0x0011a] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+ at RimWorld.IdeoFoundation_Deity.GenerateNewDeity () [0x00006] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+ at RimWorld.IdeoFoundation_Deity.GenerateDeities () [0x00056] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+ at RimWorld.IdeoFoundation_Deity.Init (RimWorld.IdeoGenerationParms parms) [0x00032] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+ at RimWorld.IdeoGenerator.GenerateIdeo (RimWorld.IdeoGenerationParms parms) [0x0000f] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+ at RimWorld.FactionIdeosTracker.ChooseOrGenerateIdeo (RimWorld.IdeoGenerationParms parms) [0x0018c] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+ at RimWorld.FactionGenerator.NewGeneratedFaction (RimWorld.FactionGeneratorParms parms) [0x00078] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+ at RimWorld.FactionGenerator.CreateFactionAndAddToManager (RimWorld.FactionDef facDef) [0x0008e] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+ at RimWorld.FactionGenerator.AddFactionToManager (RimWorld.FactionDef facDef) [0x00000] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+ at RimWorld.FactionGenerator.GenerateFactionsIntoWorld (System.Collections.Generic.List`1[T] factions) [0x00013] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+ at RimWorld.Planet.WorldGenStep_Factions.GenerateFresh (System.String seed) [0x00005] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+ at RimWorld.Planet.WorldGenerator.GenerateWorld (System.Single planetCoverage, System.String seedString, RimWorld.Planet.OverallRainfall overallRainfall, RimWorld.Planet.OverallTemperature overallTemperature, RimWorld.Planet.OverallPopulation population, System.Collections.Generic.List`1[T] factions, System.Single pollution) [0x0010f] in <d4283d69f1dd45829ad7cf101e8491d9>:0  
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+adding BorealForestto primary biomes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+adding Tundrato primary biomes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+adding ColdBogto primary biomes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+adding IceSheetto primary biomes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+adding TemperateForestto primary biomes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+adding TemperateSwampto primary biomes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+adding TropicalRainforestto primary biomes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+adding TropicalSwampto primary biomes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+adding AridShrublandto primary biomes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+adding Desertto primary biomes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+adding ExtremeDesertto primary biomes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+adding RG_TemperateGrasslandto primary biomes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+adding RG_AspenForestto primary biomes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+adding RG_BoilingForestto primary biomes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+finished biome cycle 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+finished biome cycle 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+finished biome cycle 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+finished biome cycle 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+finished biome cycle 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+finished biome cycle 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+finished biome cycle 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+finished biome cycle 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+finished biome cycle 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+finished biome cycle 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+finished biome cycle 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+finished biome cycle 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+finished biome cycle 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+finished biome cycle 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Achtung v3.9.5.0 Info: To make Achtung log some performance info, create an empty 'AchtungPerformance.txt' file in same directory as Player.log 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SOS2: Mechanoid faction not found! Parts of SOS2 will likely fail to function properly! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SOS2: Pirate faction not found! SOS2 gameplay experience will be affected. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SOS2: Insect faction not found! SOS2 gameplay experience will be affected. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error while generating pawn. Rethrowing. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 85810CF8]
+ at Verse.PawnGenerator.TryGenerateNewPawnInternal (Verse.PawnGenerationRequest& request, System.String& error, System.Boolean ignoreScenarioRequirements, System.Boolean ignoreValidator) [0x00410] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+     - TRANSPILER VFEEmpire.Mod: IEnumerable`1 VFEEmpire.HarmonyPatches.Patch_PawnGenerator:Transpiler(IEnumerable`1 instructions)
+     - TRANSPILER rimworld.erdelf.alien_race.main: IEnumerable`1 AlienRace.HarmonyPatches:TryGenerateNewPawnInternalTranspiler(IEnumerable`1 instructions)
+     - PREFIX rimworld.erdelf.alien_race.main: Void AlienRace.HarmonyPatches:TryGenerateNewPawnInternalPrefix(PawnGenerationRequest& request)
+     - POSTFIX VanillaExpanded.VFEA: Void VFEAncients.HarmonyPatches.PowerPatches:AddPowers(Pawn __result, PawnGenerationRequest request)
+     - POSTFIX RH_PawnKindSkills: Void RH_PawnKindSkills.PawnGenerator_TryGenerateNewPawnInternal_Patch:Postfix(Pawn __result)
+     - POSTFIX Meow Framework patch: Void Meow.Patch_TryGenerateNewPawnInternal:Postfix(Pawn& __result)
+     - POSTFIX com.NewRatkin.rimworld.mod: Void NewRatkin.PawnGeneratorPatch:Postfix(Pawn __result)
+ at Verse.PawnGenerator.GenerateNewPawnInternal (Verse.PawnGenerationRequest& request) [0x0009d] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+     - POSTFIX OskarPotocki.VFECore: Void VFECore.Abilities.PawnGen_Patch:Postfix(Pawn __result)
+     - POSTFIX OskarPotocki.VanillaPsycastsExpanded: Void VanillaPsycastsExpanded.PawnGen_Patch:Postfix(Pawn __result, PawnGenerationRequest request)
+ at Verse.PawnGenerator.GenerateOrRedressPawnInternal (Verse.PawnGenerationRequest request) [0x00194] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+     - PREFIX WalkerGear: Void WalkerGear.FuckIdeoApparel:FuckingIdeoApparel(PawnGenerationRequest& request)
+     - POSTFIX Meow Framework patch: Void Meow.Patch_GenerateOrRedressPawnInternal:Postfix(Pawn& __result)
+ at Verse.PawnGenerator.GeneratePawn (Verse.PawnGenerationRequest request) [0x00048] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+     - PREFIX SmashPhil.VehicleFramework: Boolean Vehicles.Construction:GenerateVehiclePawn(PawnGenerationRequest request, Pawn& __result)
+     - PREFIX rimworld.erdelf.alien_race.main: Void AlienRace.HarmonyPatches:GeneratePawnPrefix(PawnGenerationRequest& request)
+     - POSTFIX Cabbage.RimCities: Void Cities.PawnGenerator_GeneratePawn:Postfix(Pawn& __result)
+     - POSTFIX rimworld.erdelf.alien_race.main: Void AlienRace.HarmonyPatches:GeneratePawnPostfix(Pawn __result)
+     - POSTFIX AOBA.TheDeadManSwitch: Void DMS.Patch_GeneratePawnTitle:Postfix(Pawn& __result)
+     - POSTFIX Ancot.MiliraRaceHarmonyPatch: Void Milira.Milira_MilianPawnGenerator_Patch:Postfix(Pawn& __result, PawnGenerationRequest request)
+     - POSTFIX VFEPirates.Mod: Void VFEPirates.PawnGenerator_GeneratePawn_Patch:Postfix(Pawn __result) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 25D660C5]
+ at Verse.PawnGenerator.TryGenerateNewPawnInternal (Verse.PawnGenerationRequest& request, System.String& error, System.Boolean ignoreScenarioRequirements, System.Boolean ignoreValidator) [0x00410] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+     - TRANSPILER VFEEmpire.Mod: IEnumerable`1 VFEEmpire.HarmonyPatches.Patch_PawnGenerator:Transpiler(IEnumerable`1 instructions)
+     - TRANSPILER rimworld.erdelf.alien_race.main: IEnumerable`1 AlienRace.HarmonyPatches:TryGenerateNewPawnInternalTranspiler(IEnumerable`1 instructions)
+     - PREFIX rimworld.erdelf.alien_race.main: Void AlienRace.HarmonyPatches:TryGenerateNewPawnInternalPrefix(PawnGenerationRequest& request)
+     - POSTFIX VanillaExpanded.VFEA: Void VFEAncients.HarmonyPatches.PowerPatches:AddPowers(Pawn __result, PawnGenerationRequest request)
+     - POSTFIX RH_PawnKindSkills: Void RH_PawnKindSkills.PawnGenerator_TryGenerateNewPawnInternal_Patch:Postfix(Pawn __result)
+     - POSTFIX Meow Framework patch: Void Meow.Patch_TryGenerateNewPawnInternal:Postfix(Pawn& __result)
+     - POSTFIX com.NewRatkin.rimworld.mod: Void NewRatkin.PawnGeneratorPatch:Postfix(Pawn __result)
+ at Verse.PawnGenerator.GenerateNewPawnInternal (Verse.PawnGenerationRequest& request) [0x0009d] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+     - POSTFIX OskarPotocki.VFECore: Void VFECore.Abilities.PawnGen_Patch:Postfix(Pawn __result)
+     - POSTFIX OskarPotocki.VanillaPsycastsExpanded: Void VanillaPsycastsExpanded.PawnGen_Patch:Postfix(Pawn __result, PawnGenerationRequest request)
+ at Verse.PawnGenerator.GenerateOrRedressPawnInternal (Verse.PawnGenerationRequest request) [0x00194] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+     - PREFIX WalkerGear: Void WalkerGear.FuckIdeoApparel:FuckingIdeoApparel(PawnGenerationRequest& request)
+     - POSTFIX Meow Framework patch: Void Meow.Patch_GenerateOrRedressPawnInternal:Postfix(Pawn& __result)
+ at Verse.PawnGenerator.GeneratePawn (Verse.PawnGenerationRequest request) [0x001d8] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+     - PREFIX SmashPhil.VehicleFramework: Boolean Vehicles.Construction:GenerateVehiclePawn(PawnGenerationRequest request, Pawn& __result)
+     - PREFIX rimworld.erdelf.alien_race.main: Void AlienRace.HarmonyPatches:GeneratePawnPrefix(PawnGenerationRequest& request)
+     - POSTFIX Cabbage.RimCities: Void Cities.PawnGenerator_GeneratePawn:Postfix(Pawn& __result)
+     - POSTFIX rimworld.erdelf.alien_race.main: Void AlienRace.HarmonyPatches:GeneratePawnPostfix(Pawn __result)
+     - POSTFIX AOBA.TheDeadManSwitch: Void DMS.Patch_GeneratePawnTitle:Postfix(Pawn& __result)
+     - POSTFIX Ancot.MiliraRaceHarmonyPatch: Void Milira.Milira_MilianPawnGenerator_Patch:Postfix(Pawn& __result, PawnGenerationRequest request)
+     - POSTFIX VFEPirates.Mod: Void VFEPirates.PawnGenerator_GeneratePawn_Patch:Postfix(Pawn __result)
+ at VFEEmpire.WorldComponent_Hierarchy.MakePawnFor (RimWorld.RoyalTitleDef title) [0x0009b] in <fde89f178b7d48a388da6e8f624eb9d4>:0 
+ at VFEEmpire.WorldComponent_Hierarchy.InitializeTitles () [0x00026] in <fde89f178b7d48a388da6e8f624eb9d4>:0 
+ at VFEEmpire.WorldComponent_Hierarchy.FinalizeInit () [0x00021] in <fde89f178b7d48a388da6e8f624eb9d4>:0 
+ at RimWorld.Planet.WorldComponentUtility.FinalizeInit (RimWorld.Planet.World world) [0x00013] in <d4283d69f1dd45829ad7cf101e8491d9>:0  
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not execute post-long-event action. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref BC1A31EC]
+ at RimWorld.Planet.Settlement.get_Material () [0x00015] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+ at RimWorld.Planet.WorldLayer_WorldObjects+<Regenerate>d__1.MoveNext () [0x000b8] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+ at Verse.GenCollection.ExecuteEnumerable (System.Collections.IEnumerable enumerable) [0x00010] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+ at RimWorld.Planet.WorldLayer.RegenerateNow () [0x0000d] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+ at RimWorld.Planet.WorldRenderer.RegenerateAllLayersNow () [0x00010] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+ at RimWorld.Page_CreateWorldParams.<CanDoNext>b__19_1 () [0x00022] in <d4283d69f1dd45829ad7cf101e8491d9>:0 
+ at Verse.LongEventHandler.ExecuteToExecuteWhenFinished () [0x0007c] in <d4283d69f1dd45829ad7cf101e8491d9>:0  
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 11)
+
+Unloading 1267 unused Assets to reduce memory usage. Loaded Objects now: 83931.
+Total: 2457.719200 ms (FindLiveObjects: 13.624600 ms CreateObjectMapping: 4.531000 ms MarkObjects: 2437.507400 ms  DeleteObjects: 2.055900 ms)
+
+
