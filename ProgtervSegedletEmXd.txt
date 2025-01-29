@@ -1,0 +1,155 @@
+1
+      Mondja ki, és bizonyítsa a számjegyek számáról szóló tételt!
+      [] <- alsó határ cuc
+      n+1 = [log b x] +1
+      
+      
+2-----------------------------------------------------------------
+      Mondja ki, és bizonyítsa a programgráf ciklikus bonyolultságára vonatkozó tételt!
+		m(P) = p+1
+	p: predikátumok szána
+	f: függvénycsomópontok száma
+	g: gyüjtőpontok száma
+	e: élek száma
+	c: csúcsok száma
+	
+		c = p + f + g
+		e = p + f + 2g + 1
+		e =2p + f + g + 1
+
+	p + f + 2g + 1 = 2p + f + g + 1
+			  p = g
+	m(P) = e - c = (3p + f + 1) - (2p + f) = p + 1
+3------------------------------------------------------------------------
+      Mondja ki és bizonyítsa a strukturált program gráfjának lényeges bonyolultságára vonatkozó tételt!
+		M(P) = 1 , ha P strukturált
+		
+		M(P) = m(P) - k = m(P) - p = p + 1 - p = 1
+4---------------------------------------------------------------------------
+      Írja fel annak az elemi algoritmusnak a pszeudó kódját, amely megvizsgálja, hogy
+      a bemenetként kapott $X$ sorozatban van-e $T$ tulajdonságú elem!
+
+Algoritmus VizsgáldMeg
+    Bemenet: X (sorozat), T (tulajdonság)
+    Kimenet: Igaz, ha van olyan elem, amely rendelkezik a T tulajdonsággal, egyébként Hamis
+
+    1. for minden elem x az X sorozatban
+        2. if T(x) akkor
+            3. return Igaz
+    4. return Hamis
+5-------------------------------------
+ Írja fel annak az elemi algoritmusnak a pszeudó kódját, amely egy $X$ bemeneti sorozatból
+      kiválogatja a $T$ tulajdonságú elemeket egy $Y$ kimeneti sorozatba!
+Algoritmus Kivalogat
+    Bemenet: X (sorozat), T (tulajdonság)
+    Kimenet: Y (sorozat), amely tartalmazza azokat az elemeket, amelyek rendelkeznek a T tulajdonsággal
+
+    1. Kezdj el egy üres Y sorozatot
+    2. for minden elem x az X sorozatban
+        3. if T(x) akkor
+            4. add x-t a Y sorozathoz
+    5. return Y
+6----------------------------------------------------------------------------------
+Egy 150000 soros alkalmazást szeretnénk kifejleszteni. Mennyi emberre és időre van szükség (a COCOMO modell alapján)?
+	COCOMO modell
+		KDSI : Sorok száma ezres sorokban mérve
+		Td   : Fejlesztési idő hónapban
+		PM	: Person Month, egy fejlesztő 1 hónapnyi munkájának az egysége
+		   PM = 2.4 * KDSI^1.05
+		   Td = 2.5 * 3^(PM) <-3.ik gyök alatt
+		   létszám = PM / Td
+		   Td * 0.75 <- 75% alá nem lehet menni, létszám növeléssel sem!
+		   ///////////
+		    KDSI : 150
+		    PM : 2.4 * 150^1.05 = 462,495
+		    Td = 2.5 * 3^(462,495) <- 3-ik gyök == 19,25
+		    létszám = 462,495 / 19,25  = 24
+7------------------------------------------------------------------------------------
+      Egy 300000 soros program esetében lehetőségünk van egy függvénykönyvtár megvásárlására, amely 120000 sor kiváltására képes. A COCOMO modell alapján
+       maximum mennyit érdemes fizetnünk ezért, ha a programozók havi fizetése 260000 Ft?
+		KDSI : 300
+		PM = 2.4 * 300^1.05 = 957,61
+		Td = 2.5 * 9,9 = 24,75
+		Létszám = 38
+		///
+		KDSI2 = 300000 - 120000 = 180
+		PM = 2.4 * 180^1.05 = 560,07
+		Td = 2.5 * 8,2 = 20,5
+		létszám = PM / Td = 27
+		Öszköltség = 560,07 * 260000= 145 619 897
+				   (27 * 260000 )= 3 931 691 400
+8--------------------------
+	1kb hány bit információt jelent
+	1 byte = 8 bit
+	1kb = 1024 byte
+	8 * 1024 = 8192 bit
+	
+	5mb mennyi kb-ból áll
+	1 mb = 1024 kb
+	5 mb = 5*1024 = 5120 kb
+	
+	5mb mennyi byte-ból áll
+	1 mb = 1024 kb
+	5 mb = 5*1024 = 5120 kb 
+	1 kb = 1024 byte
+	5120 kb = 5120 * 1024 = 5242880
+9---------------------------
+    Mennyi lehetséges 4 változós logikai művelet van?
+	2^4 = 16
+	2^16 = 65536
+10-------------------------
+	1x lebegő pontos számábrázolás
+	1 bit az előjel
+		0 -> pozitív
+		1 -> negatív
+	8 bit a kitevő (127)
+	
+	23 bit a mantisz
+11------------------------
+	Kódoljuk az U+4CB3 Unicode kódpontot UTF-8 kódolással!
+	
+	0100 1100 1011 0011
+	16 bit -> 3 bájtra van szükség
+	1110 -> 3 bájt
+	10 -> folytató bitek
+	10 ->
+	11100100 10110010 10110011
+	   E4		B2		B3
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
